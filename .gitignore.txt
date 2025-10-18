@@ -1,0 +1,73 @@
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+[Bb]in/
+[Oo]bj/
+Debug*/
+Release*/
+x64/
+x86/
+ARM/
+ARM64/
+
+# Temporary files
+*.log
+*.tlog
+*.lastbuildstate
+*.cache
+*.pdb
+*.ipch
+*.idb
+*.ilk
+*.aps
+*.ncb
+*.opendb
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+
+# SFML dependencies
+SFML/build/
+SFML/bin/
+SFML/lib/
+
+# VS backup / auto-generated
+*.db
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# Ignore local settings
+*.opensdf
+*.sdf
+*.db-shm
+*.db-wal
+
+# Crash dumps and test data
+*.dmp
+*.tmp
+
+# Ignore package managers
+packages/
+node_modules/
+.vscode/
+
+# =========================
+# OS-specific files
+# =========================
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
