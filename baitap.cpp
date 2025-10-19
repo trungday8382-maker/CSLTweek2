@@ -93,13 +93,27 @@ void main()
 	printf_s("Menh gia ban can uu tien quy doi la:\n");
 	scanf_s("%lld", &a);
 	int list[9] = { 500000,200000,100000,50000,20000,10000,5000,2000,1000 };
-	int i = 0;
-	for (i = 0; i < 9; i++) {
-		long long menh_gia = list[i];
-		int so_to = n / menh_gia;
+	int k=9, t;
+	long long so_to, menh_gia;
+	for (int j = 0; j < 9; j++) {
+		if (a==list[j]) {
+			so_to = n / a;
+			printf_s("%lld : %d\n", a, so_to);
+			for (int t=j; t<k-1; t++) {
+				list[t]=list[t+1];
+			}
+			k--;
+			break;
+		}
+	}
+	n = n % a;
+	for (int i = 0; i < 8; i++) {
+		menh_gia=list[i];
+		so_to = n / menh_gia;
 		printf_s("%lld : %d\n", menh_gia, so_to);
 		n = n % menh_gia;
 	}*/
 
 
 }
+
