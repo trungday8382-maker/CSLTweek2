@@ -92,13 +92,14 @@ void main()
 	scanf_s("%lld", &n);
 	printf_s("Menh gia ban can uu tien quy doi la:\n");
 	scanf_s("%lld", &a);
-	int list[6] = { 500000,200000,100000,50000,20000,10000 };
+	int list[9] = { 500000,200000,100000,50000,20000,10000,5000,2000,1000 };
 	int i = 0;
-	for (i = 0; i < 6; i++) {
+	for (i = 0; i < 9; i++) {
 		long long menh_gia = list[i];
 		int so_to = n / menh_gia;
 		printf_s("%lld : %d\n", menh_gia, so_to);
 		n = n % menh_gia;
 	}*/
+
 
 }
