@@ -93,7 +93,7 @@ int main()
 	//================= BÀI 3========================//
 long long menhgia[9] = { 500000,200000,100000,50000,20000,10000,5000,2000,1000 };
 long long SoTien, MenhGiaUuTien, TienQuyDoi[9] = { 0 };
-cout << "Moi thay nhap so tien can quy doi (VND): ";
+cout << "\nMoi thay nhap so tien can quy doi (VND): ";
 cin >> SoTien;
 
 cout << "Moi thay nhap menh gia uu tien: ";
@@ -118,3 +118,4 @@ for (int i = 0; i < 9; i++)
 }
 
 }
+
