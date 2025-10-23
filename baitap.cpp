@@ -119,12 +119,13 @@ void main()
 	for (int i = 0; i < 8; i++) {
 		menh_gia = list[i];
 		so_to = n / menh_gia;
-		printf_s(" + %lld x %lld", menh_gia, so_to);
+		printf_s(" + %lld x %lld", so_to, menh_gia);
 		n = n % menh_gia;
 	}*/
 
 
 }
+
 
 
 
