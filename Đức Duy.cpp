@@ -15,7 +15,7 @@ using namespace std;
 //	//int a = 2, b = 3;
 //	//int kq = a + b;
 //	//printf_s("Ket qua la: %d", kq);//%d là để in ra số nguyên
-//
+
 //	//int a, b;
 //	//printf_s("Nhap a: ");
 //	//scanf_s("%d", &a);
@@ -23,13 +23,13 @@ using namespace std;
 //	//scanf_s("%d", &b);
 //	//int kq = a + b;
 //	//printf_s("Ket qua a + b = %d", kq);
-//
+
 //	/*double a;
 //	printf_s("Nhap a: ");
 //	scanf_s("%lf", &a);
 //	double kq = sin(a);
 //	printf_s("Ket qua la: %lf", kq);*/
-//
+
 //}
 
 //void main()
@@ -46,10 +46,8 @@ using namespace std;
 //	printf_s("Kich thuoc long=%d\n", sizeof(long));
 //	printf_s("Kich thuoc float=%d\n", sizeof(float));
 //	printf_s("Kich thuoc char=%d\n", sizeof(char));*/
-//
-// 
-// 
-// 
+
+
 //	//bool bVal;
 //	//float x = 46.7F, y = 93.0F, z;
 //	//bVal = (x == y);
@@ -66,10 +64,6 @@ using namespace std;
 //	printf_s("ASCII code: %d\n", ch);
 //	ch = ch - ('a' - 'A') * (ch >= 'a' && ch <= 'z');
 //	printf_s("Upper case:%c\n", ch);*/
-//	
-// 
-// 
-//
 //}
 
 //=====================BTVN====================//
@@ -120,5 +114,6 @@ int main()
 	}
 
 }
+
 
 
