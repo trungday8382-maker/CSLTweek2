@@ -4,17 +4,20 @@
 using namespace std;
 
 //=========================Bài Tập trên lớp=========================//
-//#include <stdio.h>//Standard input output lib
 
-//void main()
-//{
+int main()
+{
+	//==========Bài 1=========// 
 //	printf_s("Hello World");//print function
 //	printf_s("Hello World!!!\n");
 //	printf_s("I am a student");
+	
+	//==========Bài 2=========// 
 //	int a = 2, b = 3;
 //	int kq = a + b;
 //	printf_s("Ket qua la: %d", kq);//%d là để in ra số nguyên
-
+	
+	//==========Bài 3=========// 
 //	int a, b;
 //	printf_s("Nhap a: ");
 //	scanf_s("%d", &a);
@@ -22,18 +25,23 @@ using namespace std;
 //	scanf_s("%d", &b);
 //	int kq = a + b;
 //	printf_s("Ket qua a + b = %d", kq);
-
+	
+	//==========Bài 4=========// 
 //	double a;
 //	printf_s("Nhap a: ");
 //	scanf_s("%lf", &a);
 //	double kq = sin(a);
 //	printf_s("Ket qua la: %lf", kq);
+	
+	//==========Bài 5=========// 
 //#define Pi 3.14159
 //	float R = 1.25;
 //	float DienTich;
 //	DienTich = Pi * R * R;
 //	printf_s("Hinh tron, ban kinh=%f\n", R);
 //	printf_s("Dien tich=%f", DienTich);
+	
+	//==========Bài 6=========// 
 //	short Delta = 9;
 //	printf_s("Kich thuoc delta=%d\n", sizeof(Delta));
 //	printf_s("Kich thuoc int=%d\n", sizeof(int));
@@ -41,7 +49,7 @@ using namespace std;
 //	printf_s("Kich thuoc float=%d\n", sizeof(float));
 //	printf_s("Kich thuoc char=%d\n", sizeof(char));
 
-
+	//==========Bài 7=========// 
 //	bool bVal;
 //	float x = 46.7F, y = 93.0F, z;
 //	bVal = (x == y);
@@ -50,7 +58,8 @@ using namespace std;
 //	printf_s("%d\n", bVal);
 //	z = (x > y) * x + (x <= y) * y;
 //	printf_s("%f\n", z);
-
+	
+	//==========Bài 8=========// 
 //	char ch = 65;
 //	printf_s("%c\n", ch);
 //	printf_s("Nhap ch: ");
@@ -59,12 +68,11 @@ using namespace std;
 //	ch = ch - ('a' - 'A') * (ch >= 'a' && ch <= 'z');
 //	printf_s("Upper case:%c\n", ch);
 
-//}
+
 
 
 //=====================BTVN====================//
-int main()
-{
+
 	//================= BÀI 1 =========================//
 	/*int birthyear;
 	cout << "Moi thay nhap vao nam sinh: ";
@@ -110,6 +118,7 @@ int main()
 	}*/
 
 }
+
 
 
 
