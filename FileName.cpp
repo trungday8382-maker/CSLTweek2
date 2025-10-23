@@ -91,30 +91,30 @@ int main()
 
 
 	//================= BÀI 3========================//
-	long long menhgia[9] = { 500000,200000,100000,50000,20000,10000,5000,2000,1000 };
-	long long SoTien, MenhGiaUuTien, TienQuyDoi[9] = { 0 };
-	cout << "\nMoi thay nhap so tien can quy doi: ";
-	cin >> SoTien;
-	long long SoTienGoc = SoTien;
-	cout << "Moi thay nhap menh gia uu tien: ";
-	cin >> MenhGiaUuTien;
-	for (int i = 0; SoTien >= 1000; i++)
+long long menhgia[9] = { 500000,200000,100000,50000,20000,10000,5000,2000,1000 };
+long long SoTien, MenhGiaUuTien, TienQuyDoi[9] = { 0 };
+cout << "Moi thay nhap so tien can quy doi (VND): ";
+cin >> SoTien;
+
+cout << "Moi thay nhap menh gia uu tien: ";
+cin >> MenhGiaUuTien;
+for (int i = 0; SoTien >= 1000; i++)
+{
+	if (menhgia[i] <= MenhGiaUuTien)
 	{
-		if (menhgia[i] <= MenhGiaUuTien)
-		{
-			TienQuyDoi[i] = SoTien / menhgia[i];
-			SoTien %= menhgia[i];
-		}
+		TienQuyDoi[i] = SoTien / menhgia[i];
+		SoTien %= menhgia[i];
 	}
-	cout << "\n" << SoTienGoc << "=";
-	for (int i = 0; i < 9; i++)
+}
+
+for (int i = 0; i < 9; i++)
+{
+	if (menhgia[i]<=MenhGiaUuTien)
 	{
-		if (i == 8)
-		{
-			cout << menhgia[i] << "x" << TienQuyDoi[i];
-			break;
-		}
-		cout << menhgia[i] << "x" << TienQuyDoi[i] << "+";
+		cout << menhgia[i] << ":" << TienQuyDoi[i] << endl;
+		
 	}
+	
+}
 
 }
