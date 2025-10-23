@@ -4,6 +4,8 @@
 #define PI 3.14159
 void main()
 {
+	//------------------------In class------------------------//
+
 	
 	//-----------File Hello.c------------//
 	/*printf_s("Hello World!!!\n");*/
@@ -79,6 +81,9 @@ void main()
 	printf_s("Uppercase: %c\n", ch);*/
 
 
+	//------------------------BTVN------------------------//
+
+	
 	//-----------Bai_1------------//
 	/*int a;
 	printf_s("Moi ban nhap nam sinh: ");
@@ -125,6 +130,7 @@ void main()
 
 
 }
+
 
 
 
