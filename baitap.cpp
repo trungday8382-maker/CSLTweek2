@@ -1,4 +1,4 @@
-#include <stdio.h>//standard input output header file
+#include <stdio.h>
 #include <math.h>
 #include <cctype>
 #define PI 3.14159
@@ -125,5 +125,6 @@ void main()
 
 
 }
+
 
 
