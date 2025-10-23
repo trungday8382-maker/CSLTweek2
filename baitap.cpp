@@ -99,7 +99,7 @@ void main()
 	/*long long n, a;
 	printf_s("Moi ban nhap so tien can quy doi (VND): ");
 	scanf_s("%lld", &n);
-	printf_s("Menh gia ban can uu tien quy doi la:\n");
+	printf_s("Menh gia ban can uu tien quy doi la: ");
 	scanf_s("%lld", &a);
 	int list[9] = { 500000,200000,100000,50000,20000,10000,5000,2000,1000 };
 	int k = 9;
@@ -125,6 +125,7 @@ void main()
 
 
 }
+
 
 
 
