@@ -1,15 +1,27 @@
 #include <stdio.h>//standard input output header file
 #include <math.h>
 #include <cctype>
+#define PI 3.14159
 void main()
 {
+	
+	//-----------File Hello.c------------//
 	/*printf_s("Hello World!!!\n");*/
 
-
+	
+	//-----------File Hello.c------------//
 	/*printf_s("Hello World!!!\n");
 	printf_s("I am a student");*/
 
+	
+	//-----------File Sum.c------------//
+	/*int a, b;
+	int a = 2, b = 3;
+	int kq = a + b;
+	printf_s("Ket qua la:%d", kq);*/
 
+	
+	//-----------File Sum.c------------//
 	/*int a, b;
 	printf_s("Nhap a: ");
 	scanf_s("%d", &a);
@@ -18,16 +30,8 @@ void main()
 	int kq = a + b;
 	printf_s("Ket qua la:%d", kq);*/
 
-
-	/*int a, b;
-	printf_s("Nhap a: ");
-	scanf_s("%d", &a);
-	printf_s("Nhap b: ");
-	scanf_s("%d", &b);
-	int kq = a + b;
-	printf_s("Ket qua la:%d", kq);*/
-
-
+	
+	//-----------File Sin.c------------//
 	/*double a;
 	printf_s("Nhap a: ");
 	scanf_s("%lf", &a);
@@ -35,15 +39,15 @@ void main()
 	printf_s("Ket qua la:%lf", kq);*/
 
 
-//#define PI 3.14159
-//	float R = 1.25;
-//	float dientich;
-//	dientich = PI * R * R;
-//	printf_s("Hinh tron, ban kinh=%f\n", R);
-//	printf_s("Dien tich =%f", dientich);
+	//-----------File Circle.c------------//
+	//	float R = 1.25;
+	//	float dientich;
+	//	dientich = PI * R * R;
+	//	printf_s("Hinh tron, ban kinh=%f\n", R);
+	//	printf_s("Dien tich =%f", dientich);
 
 
-//File varSize.cpp
+	//-----------File varSize.c------------//
 	/*short delta = 9;
 	printf_s("Kich thuoc delta=%d\n", sizeof(delta));
 	printf_s("Kich thuoc kieu int=%d\n", sizeof(int));
@@ -52,6 +56,7 @@ void main()
 	printf_s("Kich thuoc kieu char=%d\n", sizeof(char));*/
 
 
+	//-----------Primitive data - types------------//
 	/*bool bVal;
 	float x = 46.7F, y = 93.0F, z;
 	bVal = (x == y);
@@ -62,6 +67,7 @@ void main()
 	printf_s("%f\n", z);*/
 
 
+	//-----------Character type------------//
 	/*char ch = 65;
 	printf_s("%c\n", ch);
 	ch = 'A';
@@ -73,6 +79,7 @@ void main()
 	printf_s("Uppercase: %c\n", ch);*/
 
 
+	//-----------Bai_1------------//
 	/*int a;
 	printf_s("Moi ban nhap nam sinh: ");
 	scanf_s("%d", &a);
@@ -80,6 +87,7 @@ void main()
 	printf_s("So tuoi cua ban la: %d", tuoi);*/
 
 
+	//-----------Bai_2------------//
 	/*char kytu;
 	printf_s("Moi ban nhap mot ky tu bat ky: ");
 	scanf_s("%c", &kytu);
@@ -87,6 +95,7 @@ void main()
 	printf_s("Ky tu in hoa cua ky tu %c la: %c", kytu, kytu_hoa);*/
 
 
+	//-----------Bai_3------------//
 	/*long long n,a;
 	printf_s("Moi ban nhap so tien can quy doi (VND): ");
 	scanf_s("%lld", &n);
@@ -116,4 +125,5 @@ void main()
 
 
 }
+
 
