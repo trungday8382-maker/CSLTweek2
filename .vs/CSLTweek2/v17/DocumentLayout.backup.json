@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{29A9516F-8F4B-419D-9480-94E46222803B}|CSLTweek2\\CSLTweek2.vcxproj|C:\\Users\\HP\\source\\repos\\CSLTweek2\\CSLTweek2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{29A9516F-8F4B-419D-9480-94E46222803B}|CSLTweek2\\CSLTweek2.vcxproj|solutionrelative:CSLTweek2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29A9516F-8F4B-419D-9480-94E46222803B}|CSLTweek2\\CSLTweek2.vcxproj|C:\\Users\\HP\\source\\repos\\CSLTweek2\\baitap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29A9516F-8F4B-419D-9480-94E46222803B}|CSLTweek2\\CSLTweek2.vcxproj|solutionrelative:baitap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +26,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "baitap.cpp",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\CSLTweek2\\baitap.cpp",
+              "RelativeDocumentMoniker": "baitap.cpp",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\CSLTweek2\\baitap.cpp",
+              "RelativeToolTip": "baitap.cpp",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-18T15:13:37.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\CSLTweek2\\CSLTweek2\\main.cpp",
               "RelativeDocumentMoniker": "CSLTweek2\\main.cpp",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\CSLTweek2\\CSLTweek2\\main.cpp*",
-              "RelativeToolTip": "CSLTweek2\\main.cpp*",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAF4AAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\CSLTweek2\\CSLTweek2\\main.cpp",
+              "RelativeToolTip": "CSLTweek2\\main.cpp",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-18T13:59:17.636Z",
               "EditorCaption": ""
